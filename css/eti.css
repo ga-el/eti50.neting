@@ -1,12 +1,17 @@
 header #menu{
+    
     height: 16vh;
     float: left;
     
     
     }
     
-    
-    
+    hr{
+width: 1400px;
+height: 30px;
+float: left;
+background-color: gray;
+    }
     
     
     body{
@@ -86,9 +91,9 @@ header #menu{
     
     float: right;
     
-    
     }
     
+
     
     
     header #a ul li{
@@ -181,4 +186,78 @@ header #menu{
     img{
 float: left;
 
-    }
+}
+
+
+
+
+#imagen {
+
+background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fkBToBb2k0GmYiiqwjJqrAHaE8%26pid%3DApi&f=1);
+
+}
+
+
+
+#s{
+    padding:  10px 1000px 10px 10px  ;
+}
+
+#sa{
+
+    padding: 0px 2px 0px  400px;
+}
+
+
+
+#sas{
+    padding: 0px 2px 150px 400px;
+}
+
+
+#sasa{
+    padding:  90px 1000px 150px 100px;
+
+  
+    
+}
+
+
+#sasas{
+    padding:  60px 60px 400px 500px  ;
+
+
+}
+
+
+
+#comp{
+    padding:  0px 0px 10px 40px  ;
+}
+
+#compa{
+    padding:  10px 30px 10px 50px  ;
+}
+
+#compas{
+    padding:  10px 100px 10px 60px  ;
+}
+
+#compasi{
+    padding:  10px 100px 10px 60px  ;
+}
+
+#compasu{
+    padding:  10px 100px 10px 60px  ;
+}
+
+#comprasu{
+    padding:  10px 100px 10px 60px  ;
+
+}
+
+#componentes{
+    padding:  10px 100px 10px 60px  ;
+    
+}
+
