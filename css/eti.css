@@ -6,6 +6,15 @@ header #menu{
     
     }
     
+    head #logo{
+
+        padding: 100000px 10000px 1000000px 100000000px;
+    }
+
+
+
+
+
     hr{
 width: 1400px;
 height: 30px;
@@ -233,3 +242,33 @@ background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%
 #comprasiu{
     padding:  0px 50px 0px 311px;
 }
+
+
+@media screen and (max-width: 480px) {
+
+    h2 {
+    font-size: 25px;
+    }
+     
+    h3 {
+    font-size: 22px;
+      }       
+    }
+    
+    @media only screen and (max-width: 480px) {
+
+        #mailchimp input.email {
+          width: 100%;
+           }
+        }
+        
+        
+        @media only screen and (max-width: 480px) {
+        
+        #mailchimp input[type="submit"] {
+          width: 100%;
+          }
+        }
+
+
+
