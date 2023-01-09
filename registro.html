@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/ddaf37_43afc40afcbd464ebdca583f4526d234~mv2.png/v1/fill/w_164,h_162,al_c,usm_0.66_1.00_0.01,enc_auto/dgest-fondo.png"/>
+    <title>Registro</title>
+
+</head>
+<body>
+
+<div class="signupFrm">
+    <form action="" class="form">
+      <h1 class="title">Sign up</h1>
+
+      <div class="inputContainer">
+        <input type="text" class="input" placeholder="a">
+        <label for="" class="label">Nombre</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="text" class="input" placeholder="a">
+        <label for="" class="label">Apellido</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="number" class="input" placeholder="a">
+        <label for="" class="label">Edad</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="number" class="input" placeholder="a">
+        <label for="" class="label">Num de lista</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="number" class="input" placeholder="a">
+        <label for="" class="label">Grado</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="text" class="input" placeholder="a">
+        <label for="" class="label">Grupo</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="text" class="input" placeholder="a">
+        <label for="" class="label">Correo electronico</label>
+      </div>
+
+      
+      <div class="inputContainer">
+        <input type="password" class="input" placeholder="a">
+        <label for="" class="label">Contraseña</label>
+      </div>
+
+
+
+      <input type="submit" class="submitBtn" value="Sign up">
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+<style>
+
+body{
+    background-color: rgb(70, 13, 13);
+    color: white;
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "lato", sans-serif;
+
+}
+
+.signupFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+/* Hide the placeholder texts (a) */
+
+::placeholder {
+  color: transparent;
+}
+
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  color: #DADCE0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.submitBtn {
+  display: block;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.submitBtn:hover {
+  background-color: rgb(70, 13, 13);    
+  transform: translateY(-2px);
+}
+
+.input:focus + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(70, 13, 13);
+}
+
+.input:not(:placeholder-shown)+ .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+    </style>
+</body>
+</html>
