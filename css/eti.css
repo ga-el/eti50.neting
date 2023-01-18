@@ -8,17 +8,20 @@ header #menu{
     
     head #logo{
 
-        padding: 100000px 10000px 1000000px 100000000px;
+        padding: 10000px 1000px 100000px 10000000px;
     }
 
 
 
+head #titulo{
+font-size: 100px;
 
+
+}
 
     hr{
-width: 1400px;
-height: 30px;
-float: left;
+width: 1000px;
+height: 20px;
 background-color: gray;
     }
     
@@ -49,7 +52,7 @@ background-color: gray;
     ul {
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 30px;
       }
     
     
@@ -209,23 +212,23 @@ background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%
 
 
 #s{
-    padding:  100px 997px 10px 10px  ;
+    padding:  10px 0px 10px 10px  ;
 }
 
 #sa{
 
-    padding: 20px 10px 0px  600px;
+    padding: 20px 50px 20px  580px;
 }
 
 
 
 #sas{
-    padding: 10px 10px 150px 500px;
+    padding: 10px 10px 150px 50px;
 }
 
 
 #sasa{
-    padding:  100px 100px 150px 50px;
+    padding:  10px 10px 100px 100px;
 
   
     
@@ -270,5 +273,9 @@ background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%
           }
         }
 
+
+
+
+         
 
 
